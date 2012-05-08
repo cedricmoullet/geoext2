@@ -408,7 +408,7 @@ Ext.define('GeoExt.panel.Map', {
         // between the time the event occurred and the time
         // getState is called
         if(!map) {
-            return;
+            return state;
         }
 
         // record location and zoom level
